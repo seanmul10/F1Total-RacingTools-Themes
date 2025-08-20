@@ -1,0 +1,46 @@
+{
+  "ThemeId": "F1Total.Theme.D2",
+  "Name": "F1Total Div 2 Theme",
+  "Author": "F1Total Team",
+  "Version": "1.0",
+  "DefaultLocalizationId": "en-GB",
+  "ForceLiveriesLoading": true,
+  "Links": [
+    {
+      "Type": "ThemeIssueReport",
+      "Url": "https://github.com/",
+      "Caption": "GitHub Repo"
+    }
+  ],
+  "RequiredLogotypeVariants": {
+    "Team": 
+    [
+      "Dark",
+      "Light",
+      "Alternative"
+    ]
+  },
+  "LogotypeBehaviours": [
+    {
+      "Category": "Team",
+      "Variant": "Alternative",
+      "UseFallbackSource": true,
+      "UseFallbackVariant": true,
+      "SetVariantByDefault": false
+    },
+    {
+      "Category": "Team",
+      "Variant": "Light",
+      "UseFallbackSource": true,
+      "UseFallbackVariant": true,
+      "SetVariantByDefault": false
+    },
+    {
+      "Category": "Team",
+      "Variant": "Dark",
+      "UseFallbackSource": true,
+      "UseFallbackVariant": true,
+      "SetVariantByDefault": false
+    }
+  ]
+}
